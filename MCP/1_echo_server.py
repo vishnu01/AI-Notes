@@ -16,3 +16,9 @@ def echo_tool(message: str) -> str:
 def echo_prompt(message: str) -> str:
     """Create an echo prompt"""
     return f"Please process this message: {message}"
+
+# Add server startup code
+if __name__ == "__main__":
+    # Start the MCP server
+    print("Starting Echo MCP server...")
+    mcp.run(port=8002)  # Using a different port than the filesystem server

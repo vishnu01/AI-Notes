@@ -1,0 +1,18 @@
+{
+  "servers": [
+    {
+      "name": "FileSystem",
+      "description": "File System Plugin",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Workspace"],
+      "type": "stdio"
+    },
+    {
+      "name": "Echo",
+      "description": "Echo Server",
+      "command": "python",
+      "args": ["c:\\Workspace\\Practice\\AI-Notes\\MCP\\1_echo_server.py"],
+      "type": "stdio"
+    }
+  ]
+}
