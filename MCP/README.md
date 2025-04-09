@@ -35,7 +35,7 @@ MCP follows a client-server architecture:
 - `MCP servers` provide one or more tools that expose specific functionalities through a well-defined interface
 - `The Model Context Protocol (MCP)` defines the message format for communication between clients and servers, including tool discovery, invocation, and response handling
   
-![MCP Intro](https://github.com/user-attachments/assets/2d0db744-5cc7-4a3b-8ba5-f76223380dcc)
+![MCP Intro](https://github.com/user-attachments/assets/48c6ccbe-5643-4e9b-91b6-0ca95dba08ca)
 
 ## 🚀 Why Was MCP Introduced?
 
